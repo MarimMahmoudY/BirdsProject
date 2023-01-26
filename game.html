@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gameBody">
+
+    <div class="divTop">
+        <div class="welcome">
+            <span class="wel_title">Welcome:</span> 
+            <span class="wel_value"></span>
+        </div>
+        <div class="score">
+            <span class="sc_title">Score:</span> 
+            <span class="sc_value"></span>
+        </div>
+        <div class="timeLimit">
+            <span class="tim_title">Timer: </span> 
+            <span class="tim_value">01:00</span>
+        </div>
+        <div class="birdsKilled">
+            <span class="kill_title">Birds Killed:</span> 
+            <span class="kill_value"></span>
+        </div>
+        <!-- <div class="popup" id="popup">
+            <img src="imgs/welcome.png" alt="">
+            <h3>welcome </h3>
+            <button type="button" onclick="closePopUp()">Start Game</button>
+        </div> -->
+    </div>
+    <div class="container">
+        <img class="bird invisible" src="birds/1.gif" alt="">
+        <img class="bird invisible" src="birds/2.gif" alt="">
+        <img class="bird invisible" src="birds/3.gif" alt="">
+    </div>
+    <div class="containerB">
+        <img onclick="show()" class="bomb" src="bomb/bomb.png" alt="">
+        <img class="boom" src="bomb/boom.png" alt="">
+        <!-- <img class="boomBomb" src="bomb/boom_bomb.png" alt=""> -->
+    </div>
+
+    <script src="main.js"></script>
+    <script src="bird.js"></script>
+    <script src="timer.js"></script>
+    <script src="randomBird.js"></script>
+    <script src="bomb.js"></script>
+    <script src="score.js"></script>
+
+    
+    
+
+</body>
+</html>

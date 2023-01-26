@@ -1,0 +1,137 @@
+.indexBody{
+    background-image: url(images/intro.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.square {
+    margin-top: 50px;
+    width: 25%;
+    height: 300px;
+    background-color: rgba(245, 245, 220, .5);
+    border-radius: 20px;
+}
+.divPoints {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goBtn {
+    border-radius: 15px;
+    width: 70px;
+    height: 40px;
+    font-size:large;
+}
+.strBtn:hover, .strBtn:focus, .strBtn:active {
+    transform: scale(1.1);
+}
+.imgBird {
+    width: 75px;
+    height: 70px;
+}
+/***********************************************************************************************/
+.gameBody{
+    background-image: url(images/game.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.divTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.singleTop{
+    background-color: rgba(245, 245, 220, .5);
+    border-radius: 20px;
+}
+/***************************************************************************************************/
+/* .popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s top 0.4s;
+}
+.free_popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+} */
+
+/*********************************************/
+/* .container{
+    width: 100%;
+    height: 100%;
+}
+.bird10{
+
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    
+} */
+.invisible{
+    visibility: hidden;
+}
+/* .visible{
+    visibility: visible;
+} */
+.bird {
+    width:150px;
+    height: 100px;
+    position: absolute;
+} 
+.bomb{
+    width:150px;
+    height: 170px;
+    position: absolute;
+}
+.boom {
+    width:400px;
+    height: 350px;
+    position: absolute;
+}
+/* .boomBomb {
+    width:350px;
+    height: 300px;
+    position: absolute;
+}     */
+.containerB{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 1465px;
+    height: 690px;
+}
